@@ -1,0 +1,12 @@
+# Xiaomi configuration options
+
+menu "Xiaomi board selection"
+
+	config MACH_XIAOMI_LAVENDER
+		bool "Xiaomi lavender board"
+		select MACH_LONGCHEER
+		help
+		  Support for Xiaomi Redmi Note 7
+
+endmenu
+
